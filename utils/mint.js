@@ -2,8 +2,8 @@ const { ethers } = require('ethers');
 const { create } = require('ipfs-http-client');
 
 // Replace with your Infura or Alchemy project ID and private key
-const INFURA_PROJECT_ID = ENV["INFURA_KEY"]; // or Alchemy project ID
-const PRIVATE_KEY = 'YOUR_PRIVATE_KEY'; // Your wallet's private key
+const INFURA_PROJECT_ID = process.env.INFURA_KEY; // or Alchemy project ID
+const PRIVATE_KEY = process.env.PRIVATE_KEY; // Your wallet's private key
 const CONTRACT_ADDRESS = 'YOUR_CONTRACT_ADDRESS'; // Your deployed contract address
 const ABI = [
     // ABI of your contract
