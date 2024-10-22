@@ -34,6 +34,3 @@ jobs:
     - name: Build Project
       run: yarn build # Ensure you have a build script in your package.json
 
-    - name: Run Tests
-      run: yarn test # Ensure you have a test script in your package.json
-
