@@ -2,8 +2,8 @@ export const URLs = {
 	HoodyGateway: "https://ipfs.io/ipfs/",
 	OpenSeaTokenURL: "https://opensea.io/assets/ethereum/0xc26022fcfadedf8d448cd3fc3670dfc837ddfc7c/",
 	HoodyBuildingBlockURI: "https://ipfs.io/ipfs/QmdosVxPQXt5AGwhic3qLg3DJ69z3bGP8pURJ9mxZC3MPe/",
-	HoodyBackendURL: "http://localhost:8080/api",
-	HoodyBackendAuthURL: "http://localhost:8080/auth",
+	HoodyBackendURL: "http://localhost:8000/api",
+	HoodyBackendAuthURL: "http://localhost:8000/auth",
 	DiscordURL: "",
 	TwitterURL: "",
 	OpenseaURL: "https://opensea.io/collection/hoody-gang"
